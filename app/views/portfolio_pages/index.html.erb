@@ -9,5 +9,6 @@
       <%= image_tag p.thumb_image if !p.thumb_image.nil? %>
       <%= link_to 'edit', edit_portfolio_page_path(p.id) %>
       <%= link_to 'show', portfolio_page_path(p) %>
+      <%= link_to 'delete', portfolio_page_path(p), method: :delete, data: { confirm: 'Are you sure?'} %>
     <% end %>
 </h2>

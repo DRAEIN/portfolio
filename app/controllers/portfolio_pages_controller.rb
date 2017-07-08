@@ -1,5 +1,5 @@
 class PortfolioPagesController < ApplicationController
-  before_action :set_portfolio_item, only: [:edit, :update, :show]
+  before_action :set_portfolio_item, only: [:edit, :update, :show, :destroy]
   
 
   def index
@@ -23,7 +23,6 @@ class PortfolioPagesController < ApplicationController
   end
 
   def show
-
   end
 
   def edit
@@ -39,7 +38,11 @@ class PortfolioPagesController < ApplicationController
   	end
   end
 
-  def delete
+  def destroy
+    @portfolio_item.destroy
+    respond_to do |format|
+      format.html { redirect_to portfolio_pages_url, notice: 'Item was successfully removed.' }
+    end
   end
 
 
