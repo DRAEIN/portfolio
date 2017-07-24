@@ -19,7 +19,7 @@ class PortfolioPagesController < ApplicationController
 
   	respond_to do |format|
   		if @portfolio_item.save
-  			format.html { redirect_to portfolio_pages_path , notice: 'Your Portfolio Item is now live' }
+  			format.html { redirect_to portfolios_path , notice: 'Your Portfolio Item is now live' }
   		else
   			format.html { render :new }
   		end
@@ -35,7 +35,7 @@ class PortfolioPagesController < ApplicationController
   def update
   	respond_to do |format|
   		if @portfolio_item.update(portfolio_params)
-  			format.html { redirect_to portfolio_pages_path , notice: 'Your Portfolio Item has been successfully updated!'}
+  			format.html { redirect_to portfolio_show_path , notice: 'Your Portfolio Item has been successfully updated!'}
   		else
   			format.html { render :edit }
   		end
@@ -45,7 +45,7 @@ class PortfolioPagesController < ApplicationController
   def destroy
     @portfolio_item.destroy
     respond_to do |format|
-      format.html { redirect_to portfolio_pages_url, notice: 'Item was successfully removed.' }
+      format.html { redirect_to portfolios_path, notice: 'Item was successfully removed.' }
     end
   end
 
