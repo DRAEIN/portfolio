@@ -6,6 +6,10 @@ class PortfolioPagesController < ApplicationController
   	@portfolio_item = PortfolioPage.all
   end
 
+  def angular
+    @angular = PortfolioPage.angular
+  end
+
   def new
   	@portfolio_item = PortfolioPage.new
   end
