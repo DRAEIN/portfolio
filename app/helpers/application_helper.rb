@@ -14,4 +14,5 @@ module ApplicationHelper
       content_tag(:p, greetings, class: "source-greeting")
     end 
   end
+
 end
