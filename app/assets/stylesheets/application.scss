@@ -162,3 +162,22 @@ body {
     width: 60rem;
   }
 }
+
+/*
+ * Custom Styles
+ */
+
+.card-text {
+   color: black;
+
+}
+
+.card-body {
+  background-color: white;
+  color: black;
+  text-align: left;
+}
+
+.auth-links a {
+  color: black;
+}
