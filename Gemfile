@@ -20,6 +20,8 @@ gem 'devise', '~> 4.2'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'petergate', '~> 1.6', '>= 1.6.3'
 gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
+gem 'kaminari', :git => "git://github.com/amatsuda/kaminari.git", :branch => 'master'
 
 group :development, :test do
   gem 'byebug', platform: :mri

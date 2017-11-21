@@ -1,4 +1,22 @@
 GIT
+  remote: git://github.com/amatsuda/kaminari.git
+  revision: 4727eda1994eb271062f72ed863be1ec498b441c
+  branch: master
+  specs:
+    kaminari (1.1.1)
+      activesupport (>= 4.1.0)
+      kaminari-actionview (= 1.1.1)
+      kaminari-activerecord (= 1.1.1)
+      kaminari-core (= 1.1.1)
+    kaminari-actionview (1.1.1)
+      actionview
+      kaminari-core (= 1.1.1)
+    kaminari-activerecord (1.1.1)
+      activerecord
+      kaminari-core (= 1.1.1)
+    kaminari-core (1.1.1)
+
+GIT
   remote: https://github.com/codahale/bcrypt-ruby.git
   revision: 23b0517e20e7ddf2e733c1bcdb22b0b12166f042
   specs:
@@ -70,6 +88,8 @@ GEM
       warden (~> 1.2.3)
     erubis (2.7.0)
     execjs (2.7.0)
+    font-awesome-rails (4.7.0.2)
+      railties (>= 3.2, < 5.2)
     friendly_id (5.1.0)
       activerecord (>= 4.0.0)
     globalid (0.4.0)
@@ -184,9 +204,11 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   devise (~> 4.2)
+  font-awesome-rails (~> 4.7, >= 4.7.0.2)
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
   jquery-rails
+  kaminari!
   petergate (~> 1.6, >= 1.6.3)
   pg (~> 0.18)
   pry-byebug (~> 3.4)
