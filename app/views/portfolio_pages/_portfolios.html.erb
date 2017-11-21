@@ -1,9 +1,7 @@
 <% @portfolio_item.each do |p| %>
-    <h2><%= link_to p.title, portfolio_show_path(p) %></h2>
-    <p><%= p.subtitle %></p>
-    <p><%= p.body %></p>
+  <div class="card">
     <%= image_tag p.thumb_image if !p.thumb_image.nil? %>
-    <%= link_to 'edit', edit_portfolio_page_path(p.id) if logged_in?(:site_admin)%>
-    <%= link_to 'show', portfolio_page_path(p) %>
-    <%= link_to 'delete', portfolio_page_path(p), method: :delete, data: { confirm: 'Are you sure?' } if logged_in?(:site_admin) %>
+    <p class="card-text"><%= link_to p.title, portfolio_show_path(p) %></p>
+    <p><%= p.subtitle %></p>
+  </div>
 <% end %>
