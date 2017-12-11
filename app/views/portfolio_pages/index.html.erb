@@ -1,6 +1,6 @@
 <div class="album text-muted">
     <div class="container">
-    	<div class="row sortable">
+    	<div class="row <%= "sortable" if logged_in?(:site_admin) %>">
 
 		    <h2><%= link_to 'Create new Item', new_portfolio_page_path if logged_in?(:site_admin) %></h2>
 
