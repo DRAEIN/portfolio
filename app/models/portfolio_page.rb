@@ -9,6 +9,10 @@ class PortfolioPage < ApplicationRecord
 		where(subtitle: 'Angular')
 	end
 
+	def self.by_position
+		order("position ASC")
+	end
+
 	after_initialize :set_defaults  #after making a new instance of a Portfolioitem,
                                      #it will check with action beneath, if theres an image given,
                                       #if not, place a placeholderimage as deault

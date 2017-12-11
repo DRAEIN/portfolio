@@ -1,5 +1,5 @@
 <% @portfolio_item.each do |p| %>
-  <div class="card">
+  <div class="card" data-id="<%= p.id %>">
     <%= image_tag p.thumb_image if !p.thumb_image.nil? %>
     <p class="card-text"><%= link_to p.title, portfolio_show_path(p) %></p>
     <p><%= p.subtitle %></p>
