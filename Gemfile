@@ -24,6 +24,11 @@ gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'b
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 gem 'kaminari', :git => "git://github.com/amatsuda/kaminari.git", :branch => 'master'
 gem 'jquery-ui-rails', '~> 5.0', '>= 5.0.5'
+gem 'carrierwave', '~> 0.11.2'
+gem 'carrierwave-aws', '~> 1.3'
+gem 'mini_magick', '~> 4.8'
+gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
+
 
 group :development, :test do
   gem 'byebug', platform: :mri
