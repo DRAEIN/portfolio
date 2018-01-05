@@ -1,0 +1,236 @@
+[33mcommit dc0ba668ebe12d9563403f62cbc26ea138366255[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Thu Dec 14 00:52:11 2017 +0100
+
+    added missing public folder again
+
+[33mcommit cc83d89224f58a9ee4f0a735c0921b4fd0f17bcf[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Wed Dec 13 01:04:39 2017 +0100
+
+    implemented initial file uploading system via carrier wave for portfolio items
+
+[33mcommit 6d2230195378b4b094e673dcf35484b24533a261[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Wed Dec 13 00:09:05 2017 +0100
+
+    integrated video background
+
+[33mcommit b061bb24a199670426637148af62568984432a79[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Tue Dec 12 23:42:38 2017 +0100
+
+    integrated image background
+
+[33mcommit 738df64c92f49907f1ef7c5116f113869f8355b4[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Tue Dec 12 23:17:03 2017 +0100
+
+    updated image for about me page
+
+[33mcommit 260ad420937e8f7ab8522913e95444ed48112f3a[m
+Merge: 892bd9e 27ddf3c
+Author: DRAEIN <mark.billes@web.de>
+Date:   Mon Dec 11 23:54:50 2017 +0100
+
+    Merge pull request #8 from DRAEIN/javascript
+    
+    Javascript
+
+[33mcommit 27ddf3c334bccc7274941ad5bbb8b3d3593aa3b3[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Mon Dec 11 23:53:20 2017 +0100
+
+    implemented auth rules for portfolio controller and view for drag and drop feature
+
+[33mcommit 3113b67d1305b2ad0c7d2fb62d5b8d38c93d0191[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Mon Dec 11 23:45:20 2017 +0100
+
+    implemented persistend position updates for drag and drop interface
+
+[33mcommit a6948be05e9329411ba11b78bb9d328b5cfc0b70[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Mon Dec 11 01:27:31 2017 +0100
+
+    integrated initial drag and drop implementation
+
+[33mcommit 5ef2ad04fdc11fa15ff41ff3d75bde0576fb4643[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Mon Dec 11 01:08:31 2017 +0100
+
+    installed jquery ui, sortable html and css calls
+
+[33mcommit 8d19452c8d634fed2f093664e37dcf238f84ab44[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Mon Dec 11 00:54:14 2017 +0100
+
+    updated portfolio to include attr for position
+
+[33mcommit 892bd9e73306cc53cc2f5833ea9b12d794046064[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Tue Nov 28 23:22:22 2017 +0100
+
+    implemented refactor for navigation and active statuses
+
+[33mcommit 27a36b384d2ef40bd38c0e73a8fcf7fcb46c0bfe[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Tue Nov 28 02:11:16 2017 +0100
+
+    updated form styles for portfolios
+
+[33mcommit e883e16db6972b93872f726d6493f9ea8162b9cf[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Tue Nov 28 01:30:22 2017 +0100
+
+    implemented showpage styles for portfolio layout
+
+[33mcommit 1ba74583e569f2763fc898f3cb125182a0768882[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Tue Nov 28 01:19:57 2017 +0100
+
+    implemented partials for navigation, footer, and masthead
+
+[33mcommit 1c209fe885c31354d4a4eeb6ffb29da6b51a4094[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Tue Nov 21 23:57:13 2017 +0100
+
+    implemented initial design for portfolio index page
+
+[33mcommit b4af571957bb47e9f027f1c534b705d5091c8749[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Tue Nov 21 03:54:34 2017 +0100
+
+    implemnted partial for blog, font awesome and pagination
+
+[33mcommit cf596bf676be9a8e62ecb410254e0aa63423b1df[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Tue Nov 21 03:03:25 2017 +0100
+
+    integrated styles for blog pages
+
+[33mcommit 12d44d3b4375e327203a1381e3cd72d25e73cbbd[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Tue Nov 21 02:38:54 2017 +0100
+
+    updated auth to include draft and published status controls
+
+[33mcommit 530687ffa81bf9bfd8d098a0e11b82e8a14b5790[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Tue Nov 21 01:39:39 2017 +0100
+
+    implemented nav bar for blog layout
+
+[33mcommit c961e9fa0800aba38e4d5239e68ab66b3a8ffbe2[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Mon Nov 20 01:09:34 2017 +0100
+
+    implemented styles for the initial blog layout
+
+[33mcommit 12e351bd7644d207a10d006958a67c2cab41acff[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Mon Nov 20 00:47:41 2017 +0100
+
+    fixed bug with login helper method by setting defaults
+
+[33mcommit b1133b373e4f287720b381e0fe433bffd55f799d[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Mon Nov 20 00:35:11 2017 +0100
+
+    finished initial design for Devise Forms
+
+[33mcommit fd74e229a7c12a75ae71d9950fc4de660b49381e[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Mon Nov 20 00:07:20 2017 +0100
+
+    added styles to register form
+
+[33mcommit 4c7be8cf4bd817ecee2864534a0a8670d0b3534f[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Sun Nov 19 22:59:42 2017 +0100
+
+    updated styles for user edit page
+
+[33mcommit 97c8f8c8698e41da4c4f0cf2ca5a677e4aa02739[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Thu Nov 16 20:28:04 2017 +0100
+
+    updated styles and added google map for contact page
+
+[33mcommit 27d4eb1f46a722ef094b609192b52a01b6045076[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Thu Nov 16 20:10:24 2017 +0100
+
+    updated master layout styles along with helper methods
+
+[33mcommit 430fdcbaed765bfaf15660482c7eefb18c86dc41[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Wed Nov 8 17:41:13 2017 +0100
+
+    Updated styles for master layout file
+
+[33mcommit 607713a627b159be07e07020c2504d32dc7a82c1[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Wed Nov 8 16:46:24 2017 +0100
+
+    Installed styles for application layout
+
+[33mcommit 04294364a6289b8e8d17abb0e9ef6739c2b4e95e[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Tue Aug 22 23:44:16 2017 +0200
+
+    implemented authorization engine for portfolio items and blogs
+
+[33mcommit 03e0f54bf0682eb0d17dbf69d5238173eb9b7ce8[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Tue Aug 22 14:27:13 2017 +0200
+
+    added installation requirements for petergate gem
+
+[33mcommit a7094315b45e7874c5305d8aa23e5799bcbb1cc1[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Tue Aug 22 14:17:40 2017 +0200
+
+    installed petergate gem
+
+[33mcommit a11b7ae8b16f46fdfcd3563a42a9d4cc8cd5f97e[m
+Merge: b0a70b2 f6da2b9
+Author: DRAEIN <mark.billes@web.de>
+Date:   Tue Aug 22 14:15:31 2017 +0200
+
+    Merge pull request #7 from DRAEIN/rubygem
+    
+    Rubygem
+
+[33mcommit f6da2b967bc8c3623fdd5613116161ebd7b3f204[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Tue Aug 22 14:14:45 2017 +0200
+
+    added petergate gem
+
+[33mcommit 1a52a8eec32a350791b1385f0366ccc0ef2a7e69[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Tue Aug 22 00:05:39 2017 +0200
+
+    modified application layout
+
+[33mcommit 4651daf2ba794f25647a5c8c2bee1b0d15f5d7f2[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Mon Aug 21 22:27:35 2017 +0200
+
+    implemented bootstrap gem
+
+[33mcommit b0a70b2f15381e1574e06db09d596fa3b2e7b992[m
+Author: Mark Billes <mark.billes@web.de>
+Date:   Mon Aug 21 22:01:17 2017 +0200
+
+    installed pry-byebug for debgging purposes
+
+[33mcommit ec6eca577a0ebe4a8caf6bac3830b7895f7fd3e9[m
+Merge: ea19749 242ae45
+Author: DRAEIN <mark.billes@web.de>
+Date:   Sun Aug 20 22:43:23 2017 +0200
+
+    Merge pull request #6 from DRAEIN/view
+    
+    View
