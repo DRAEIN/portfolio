@@ -15,6 +15,8 @@ class User < ApplicationRecord
 
   validates_presence_of :name
 
+  has_many :comments, dependent: :destroy
+
   def first_name
   	self.name.split.first  #takes the specific name (self) splits by spacing then takes the first name out of the array.
   end
