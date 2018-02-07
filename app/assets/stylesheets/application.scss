@@ -213,3 +213,12 @@ body {
   background: image-url('home_bg.png') no-repeat;
   background-size: cover;
 }
+
+.app-card-container {
+  color: black;
+  text-align: left;
+}
+
+.app-card-container > .card-body {
+  padding: 20px;
+}
